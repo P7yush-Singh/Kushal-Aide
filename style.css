@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+  position: fixed;
+    padding-top: 20px;
+    top: 0;
+    right: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    z-index: 100;
+}
+header .logo{
+  width: 65px;
+  padding-left: 45px;
+}
+header .text{
+  position: relative;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: 0.6s;
+}
+header ul{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header ul li{
+  position: relative;
+  list-style: none;
+}
+header ul li a{
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 20px;
+  transition: 0.6s;
+
+}
+
+/* Sticky Navbar Work here */
+header.Sticky {
+  padding: 10px;
+  width: 90%;
+  margin: 20px 25px 0 10px;
+  border-radius: 25px;
+  background-color: #000;
+}
+header.Sticky .logo{
+  width: 45px;
+}
+header.Sticky ul li a{
+  color: #fff;
+  padding: 20px;
+  font-size: 1rem;
+  margin-right: 15px;
+}
+header.Sticky .text{
+  font-size: 1.2rem;
+  color: #fff;
+}
+/* Wavy Effect */
+.custom-shape-divider-bottom-1717836683 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1717836683 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 96px;
+}
+
+.custom-shape-divider-bottom-1717836683 .shape-fill {
+  fill: #FFFFFF;
+}
+/* Wavy Effect Code End here! */
+.backgg{
+  background: url(Assest/image.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+.page2{
+  background: url('https://th.bing.com/th/id/OIP.oJfU3EPOWXkkjX3aQ6-K6wHaEK?rs=1&pid=ImgDetMain');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+/* Add Hover Effect here */
