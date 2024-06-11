@@ -59,22 +59,22 @@ header.Sticky {
   background-color: #000;
 }
 header.Sticky .logo{
-  width: 45px;
+  width: 40px;
 }
 header.Sticky ul li a{
   color: #fff;
   padding: 20px;
-  font-size: 1rem;
+  font-size: 0.8rem;
   margin-right: 15px;
 }
 header.Sticky .text{
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #fff;
 }
 /* Wavy Effect */
 .custom-shape-divider-bottom-1717836683 {
   position: absolute;
-  bottom: 0;
+  bottom: -5%;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -107,6 +107,87 @@ header.Sticky .text{
   background-repeat: no-repeat;
   width: 100%;
   height: 100vh;
+}
+
+/*  */
+.container{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.left, .right{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  
+}
+.left{
+  width: 55%;
+  padding-left: 4rem;
+}
+.right{
+  width: 45%;
+}
+.content{
+  margin-left: 3.6rem;
+}
+.content h1{
+  font-size: 3.1rem;
+  color: white;
+  font-weight: 800;
+}
+.content h2{
+  font-size: 1.7rem;
+  color: #fed9b7;
+  padding-top: 20px;
+}
+.content p{
+  font-size: 1.4rem;
+  color: white;
+  font-weight: 400;
+  margin: 1.1rem 0 2.7rem 0;
+  max-width: 38rem;
+  line-height: 2rem;
+  word-spacing: .1rem;
+}
+.content .do-text{
+  margin-top: 25px;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: white;
+
+}
+.btn button{
+  border: .1rem solid rgb(14, 123, 224);
+  font-size: 1.1rem;
+  padding: 1rem 2.3rem;
+  border-radius: .5rem;
+  cursor: pointer;
+}
+.btn button a{
+  text-decoration: none;
+  color: white;
+}
+button{
+  background-color: #f50101;
+  color: #2a1241;
+}
+button:hover{
+  background-color: #bb0c0c;
+  color: rgb(255, 6, 6);
+}
+.right .right-content{
+  margin-top: 20%;
+}
+.right .right-content img{
+  width: 410px;
+  left: 0;
+}
+/* Down Side Arrow */
+.arrow{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
 
 /* Add Hover Effect here */
