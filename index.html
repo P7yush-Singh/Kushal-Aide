@@ -4,19 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kushal AIDE</title>
+  <link rel="stylesheet" href="contact.css">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="Assest/logo.jpeg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
   <header>
     <a href="#top" ><img src="Assest/logo.jpeg" class="logo" title="Kushal AIDE"> </a>
-    <a href="#" class="text">Kushal AIDE</a>
+    <a href="#top" class="text">Kushal AIDE</a>
     <ul>
       <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Features</a></li>
-      <li><a href="#">Service</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="#About">About</a></li>
+      <li><a href="#Fretures">Features</a></li>
+      <li><a href="#Service">Service</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
   </header>
   <div class="custom-shape-divider-bottom-1717836683">
@@ -27,24 +29,27 @@
   <main>
     <section class="backgg">
     <div class="container">
+      <div class="topbar">
+        <a href="#top"><img class="arrow" src="Assest/arrow.jpeg" ></a>
+      </div>
       <div class="left">
         <div class="content">
             <h1>Kushal AIDE</h1>
             <h2>#India's First App, <br>"Where Knowledge Meets Collaboration"</h2>
-            <p>Kushal : Aide is a user-friendly app designed to assist students in completing handwritten assignments and projects efficiently.</p>
+            <p>Kushal : Aide is a user-friendly App designed to assist students in completing handwritten assignments and projects efficiently.</p>
             <div class="btn">
                 <button><a href="about.html">Know More</a></button>
             </div>
             <p class="do-text">Download our App</p>
             <div class="icons">
-              <img src="App_Store.webp" >
-              <img src="Play_Store.webp">
+              <a href="#"><img src="Assest/App_Store.webp" ></a>
+              <a href="#"><img src="Assest/Play_Store.webp"></a>
             </div>
         </div>
     </div>
     <div class="right">
       <div class="right-content">
-        <img src="Frame.webp" alt="">
+        <img src="Assest/Frame.webp" alt="">
       </div>
     </div>
 
@@ -52,9 +57,28 @@
     </div>
   </section>
     <section class="page2" ></section>
+
+
+    <section class="contact" id="contact">
+      <div class="left-ff">
+        <div class="container-f">
+            <form >
+                <h1>Leave your Suggestion or queries here</h1>
+                <input type="text" id="firstName" placeholder="First Name" required>
+                <input type="text" id="lastName" placeholder="Last Name" >
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="text" id="mobile" placeholder="Mobile">
+                <h4>Type Your Message Here...</h4>
+                <textarea required></textarea>
+                <input type="submit" value="Send" id="button">
+            </form>
+        </div>
+    </div>
+    </section>
   </main>
 
 
   <script src="script.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
 </body>
 </html>
