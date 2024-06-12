@@ -4,6 +4,9 @@
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+html{
+  scroll-behaviour: smooth;
+}
 header{
   position: fixed;
     padding-top: 20px;
